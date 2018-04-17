@@ -1,0 +1,80 @@
+/* Body */
+body {
+	margin: 0 20% 0 20%;
+}
+
+/* Body Content*/
+#header {
+	text-align: center;
+}
+.header-logo {
+	height: 220px;
+	width: 280px;
+}
+#body-content {
+	padding: 10px 10px 10px 10px;
+}
+.portfolio-row {
+	display: flex;
+}
+.portfolio-col {
+	position: relative;
+	margin: 10px 10px 10px 10px;
+	width: 350px;
+	height: 350px;
+	text-align: center;
+}
+.col-image {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.portfolio-col:hover .img-overlay {
+	opacity: 0.8;
+}
+
+.img-overlay {
+	background-color: orange;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+}
+
+.img-overlay p {
+	color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* NavBar */
+#nav-bar .navlink {
+	font-size: 30;
+	margin: 0 10% 0 10%;
+	font-weight: bold;
+}
+
+.navlink:hover {
+	cursor: pointer;
+	color: white;
+	-webkit-text-stroke: 1px black;
+}
+
+#nav-bar .nav-dropdown {
+	background: none;
+	width: 250px;
+	height: 40px;
+}
+
+/* Footer */
